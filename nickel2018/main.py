@@ -6,8 +6,8 @@ def solution(p: list) -> int:
     blank = False  # indicates if a current sequence is of False elements
     seq = 0  # a length of a sequence of False elements
     zeros = []  # store the lengths of the sequences
-    for i in range(len(p)):
-        if not p[i]:
+    for x in p:
+        if not x:
             if blank:
                 seq += 1
             else:
