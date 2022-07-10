@@ -6,7 +6,8 @@ The task can be found on
 [The solution's report](https://app.codility.com/demo/results/trainingQEAVH7-HKF/).
 
 If you try to build the whole triangle step by step by calculating 
-the next level, it will be slow, and you will fail the performance test. We need something fast. 
+the next level, it will be slow, and you will fail the performance test. 
+We need something fast. 
 
 My idea is simple. Let's look at an example of a possible triangle:
 ```
